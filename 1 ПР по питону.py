@@ -1,7 +1,7 @@
 import math
 a = str(input('Введите оператор: '))
 try:
-    if a == "cos" or a == "sin" or a == "tan" or a == "sqrt":
+    if a == "cos" or a == "sin" or a == "tan" or a == "sqrt" or a == "!"
         b = int(input('Введите число: '))
     else:
         c = int(input('Введите 1 число: '))
@@ -49,10 +49,10 @@ while True:
                     print(result)
         case "!":
             if flag == 0:
-                result += math.factorial(c,d)
+                result += math.factorial(b)
                 print(result)
             else:
-                result += math.factorial(result,f)
+                result += math.factorial(f)
                 print(result)
         case "pow":
             if flag == 0:
